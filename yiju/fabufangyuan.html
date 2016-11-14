@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>发布房源</title>
+    <link rel="stylesheet" href="css/发布房源.css">
+</head>
+<body>
+<div class="header">
+    <div class="wrap">
+        <a href="###"><img src="img/logo.png"/></a>
+        <ul>
+            <li><span>郑州</span><i id="sanjiao2"></i></li>
+            <li><input type="text" placeholder="请输入小区名称/区域/厅室">
+                <button><img src="img/33.png"/>搜房源</button>
+            </li>
+        </ul>
+        <div class="header-r">
+            <a href="http://192.168.0.190/登录.html">登录</a>
+            <a href="http://192.168.0.190/注册.html">注册</a>
+        </div>
+    </div>
+</div>
+<div class="body">
+    <div class="wrap">
+        <form>
+          <p class="home">免费发布房源</p>
+          <div class="section">
+          <h2>类别和身份</h2>
+          <ul>
+              <li class="chuzu"><span><s>*</s> 出租方式：</span>
+                  <div><p><a  class="grentway"  aa="整租"></a></p>整套出租</div>
+                  <div><p><a aa="单间出租"></a></p>单间出租</div>
+                  <div><p><a aa="床位出租"></a></p>床位出租</div>
+              </li>
+              <li class="shenfen"><span><s>*</s> 身份 ：</span>
+                  <div><p><a class="atype"></a></p>个人</div>
+                  <div><p><a></a></p>经纪人</div>
+              </li>
+          </ul>
+        </div>
+          <div class="section  cengji">
+            <h2>基础信息</h2>
+            <ul>
+                <li class="qu"><span><s>*</s> 小区名称 ：</span>
+                    <input type="text"  placeholder="请输入小区名称" class="hood" name="villageName" value="">
+                </li>
+                <li class="fang"><span><s>*</s> 房屋户型  ：</span>
+                    <input class="same" type="text" name="shi"  value=""><i class="a">室</i>
+                    <input class="same" type="text" name="ting" value=""><i class="b">厅</i>
+                    <input class="same" type="text" name="wei" value=""><i class="c">卫</i>
+                    <input class="same" type="text" name="area" value=""><i class="d">m²</i>
+                </li>
+                <li class="lou"><span><s>*</s> 楼层 ：</span>
+                    <input class="flo"  type="text" name="floor" value=""><i class="e">第</i><em class="f">层</em>
+                    <input class="flo"  type="text" name="countfloor" value=""><i class="g">共</i><em class="h">层</em>
+                </li>
+                <li class="chaoxiang"><span><s>*</s> 朝向装修：</span>
+                    <a href="###" id="aa">南</a>
+                    <a href="###" id="bb">精装修</a>
+
+                </li>
+                <li class="zujin"><span><s>*</s> 租金 ：</span>
+                    <input class="price" type="text" name="price" value=""><em class="i">元/月</em>
+                    <a href="###">押一付一</a>
+                </li>
+            </ul>
+            <div class="dire">
+                <p class="">南</p>
+                <p>西</p>
+                <p>北</p>
+                <p>东</p>
+            </div>
+            <div class="deco">
+                <p>精装修</p>
+                <p>中等装修</p>
+                <p>简装</p>
+                <p>毛坯</p>
+            </div>
+            <div class="pay">
+                <p>押一付三</p>
+                <p>押一付一</p>
+                <p>半年付</p>
+                <p>一年付</p>
+                <p>押一付二</p>
+                <p>押二付二</p>
+            </div>
+        </div>
+          <div class="section">
+            <h2>详细信息</h2>
+            <ul>
+                <li><span><s>*</s> 标题 ：</span>
+                    <input class="title" type="text" placeholder="8至30个字，不允许特殊字符" name="tittle" value="">
+                </li>
+                <li class="peizhi"><span><s>*</s> 房屋配置 ：</span>
+                    <a id="bed" href="###">床</a>
+                    <a href="###">衣柜</a>
+                    <a href="###">沙发</a>
+                    <a href="###">书桌</a>
+                    <a href="###">电视</a>
+                    <a href="###">冰箱</a>
+                    <a href="###">微波炉</a>
+                    <a href="###">电磁炉</a>
+                    <a href="###" id="xiyiji">洗衣机</a>
+                    <a href="###">空调</a>
+                    <a href="###">热水器</a>
+                    <a href="###">热水器</a>
+                    <a href="###">热水器</a>
+                </li>
+                <li><span><s>*</s>  特色 ：</span>
+                    <input type="text" class="title" value=""  placeholder="请输入4字关键词，不同关键词中间用空格格开" name="features">
+                </li>
+                <li><span><s>*</s> 地址 ：</span>
+                    <input type="text" class="title" placeholder="请正确输入地址" name="address" value="">
+                </li>
+            </ul>
+              <p class="pp"><input  type="button" class="photo" value="上传图片">
+                 <input type="file"  class="file-ch" id="file1" name="file"/>
+                 <a href="###"></a>
+                 <i class="must">只能上传房屋图片，不能包含有文字、数字、网址、名片等，最多上传24张，每张最大10M</i>
+              </p>
+        </div>
+          <div class="section">
+            <h2>其它信息</h2>
+            <ul>
+                <li><span><s>*</s>  联系人 ：</span>
+                    <input type="text" class="lianxi" placeholder="请填写联系人" name="linkman" value="">
+                </li>
+                <li><span><s>*</s>  联系电话 ：</span>
+                    <input type="text" class="phone" placeholder="请正确填写号码" name="linkphone" value="">
+                </li>
+                <li><input type="button" class="fabu" value="发布"></li>
+            </ul>
+        </div>
+        </form>
+    </div>
+</div>
+<div class="foot">
+    <div class="foot-nav">
+        <p class="p1">友情链接:
+            <a href="###">武汉租房</a>
+            <a href="###">厨房电器品牌</a>
+            <a href="###">房展汇</a>
+            <a href="###">36搜房网</a>
+            <a href="###">无锡二手车</a>
+            <a href="###">合肥房产网</a>
+            <a href="###">房产论坛</a>
+            <a href="###">租房问答</a>
+            <a href="###">郑州租房</a>
+            <a href="###">郑州房价</a>
+            <a href="###">好租</a>
+            <a href="###">郑州租房</a>
+            <a href="###">密封胶</a>
+
+        </p>
+        <p class="p2"> <a href="###">南山写字楼</a>
+            <a href="###">罗湖写字楼</a>
+            <a href="###">上海写字楼出租</a>
+            <a href="###">广州写字楼出租</a>
+            <a href="###">北京办公室出租</a>
+            <a href="###">深圳写字楼出租</a>
+            <a href="###">房产季</a>
+            <a href="###">好租</a>
+            <a href="###">好租</a>
+            <i class="foot-xian"></i>
+        </p>
+        <ul>
+            <li>北京宜居房产经纪有限责任公司 | 网络经营许可证 京40825355号</li>
+            <li class="li1">©Copyright©2010-1016易居版权所有</li>
+            <li><img src="img/22.jpg"/><span>微信扫一扫  马上租房</span></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="jquery-1.8.0.js"></script>
+<script type="text/javascript" src="ajaxfileuplode.js"></script>
+<script type="text/javascript" src="yiju-js/fabufang.js"></script>
+</body>
+</html>

@@ -1,0 +1,521 @@
+body {
+    font-size: 12px;
+    line-height: 1.666;
+    color: #666;
+}
+
+body, input {
+    font-family: "verdana";/*无衬线字体*/
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, dl, dt, dd, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td, img {
+    border: 0;
+}
+
+em, i, th,s {
+    font-style: normal;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-size: 100%;
+    font-weight: normal;
+}
+input, select, button, textarea, table {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input {
+    outline: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, caption {
+    text-align: left;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+.header{
+    min-width:1150px;
+    background-color:#75a749;
+    height:54px;
+}
+.wrap{
+    width:1150px;
+    margin:0 auto;
+    overflow: hidden;
+
+}
+.header .wrap a img{
+    display:inline-block;
+    padding:8px 0;
+    float:left;
+}
+.header  .wrap ul{
+    width:664px;
+    height:34px;
+    margin:10px 86px 10px 112px;
+    background-color:#fff;
+    border-radius:12px;
+    float:left;
+}
+.header .wrap ul li {
+    float: left;
+}
+.header .wrap ul  li span{
+    line-height:34px;
+    font-size:16px;
+    color:#888;
+    margin:0 8px 0 24px;
+}
+.header .wrap ul  li #sanjiao2{
+    width: 0;
+    height: 0;
+    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-left: 5px solid rgba(0, 0, 0, 0);
+    border-top: 5px solid rgb(153, 153, 153);
+    display:inline-block;
+    margin: 8px 12px 0 5px;
+    vertical-align: 2px;
+}
+.header  ul  li  input{
+    width:440px;
+    line-height:20px;
+    border-top:0;
+    border-right:0;
+    border-bottom:0;
+    border-left:1px solid #ccc;
+    font-size:16px;
+    padding-left:15px;
+    display:inline-block;
+}
+.header ul  li  button{
+    background-color:#5f883b;
+    border:0;
+    border-radius:0 12px 12px 0;
+    font-size: 16px;
+    height: 34px;
+    width: 112px;
+    color:#fff;
+}
+.header ul  li button img{
+    display: inline-block;
+    margin-right: 7px;
+    vertical-align: -4px;
+}
+.header-r{
+    float:left;
+}
+.header-r  a{
+    font-size:14px;
+    color:#fff;
+    line-height:54px;
+}
+.body{
+    min-width: 1150px;
+}
+.body .home{
+    width:100%;
+    line-height:104px;
+    text-align:center;
+    font-size:22px;
+    color:#333;
+    font-weight: bold;
+}
+.cengji{
+    position:relative;
+}
+.section  h2{
+    font-size:16px;
+    color:#333;
+    font-weight: bold;
+    margin:10px 0;
+}
+.section li{
+    font-size: 14px;
+    color:#333;
+}
+.section  li span{
+    display:inline-block;
+    margin:20px 0;
+    text-align:right;
+    width:96px;
+    height:16px;
+}
+.section  li span s{
+    color:#eb5f00;
+}
+.chuzu  div{
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+
+}
+ .chuzu  div  p{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    vertical-align: -2px;
+    text-align: center;
+    margin-right: 5px;
+}
+ .chuzu div p  a{
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    margin: 4px;
+    display:inline-block;
+
+ }
+ .grentway{
+     background-color:#75a749;
+ }
+
+
+.shenfen div{
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+
+}
+.shenfen div  p{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    vertical-align: -2px;
+    text-align: center;
+    margin-right: 5px;
+}
+.shenfen  div p  a{
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    margin: 4px;
+    display: inline-block;
+}
+.atype{
+    background-color:#75a749;
+}
+
+
+
+.shenfen  a{
+    display: inline-block;
+    margin: 0 15px 0 10px;
+}
+
+.section  ul li input{
+    display:inline-block;
+    margin: 0 0 15px 5px;
+    height:34px;
+    border:1px solid #ccc;
+    border-radius:5px;
+
+}
+.fang i{
+    position: absolute;
+    top: 122px;
+
+}
+.fang  .a{
+    left: 206px;
+}
+.fang  .b{
+    left: 347px;
+}
+.fang  .c{
+    left:488px;
+}
+.fang  .d{
+    left: 623px;
+}
+.lou  i,em{
+    position: absolute;
+    top: 187px;
+}
+.lou .e{
+    left:132px;
+}
+.lou .f{
+    left:190px;
+}
+.lou .g{
+    left:277px;
+}
+.lou .h{
+    left:338px;
+}
+
+
+/*.section  ul li select{
+    display:inline-block;
+    margin: 0 0 15px 5px;
+    height:34px;
+    border:1px solid #ccc;
+}*/
+.chaoxiang  a{
+    display: inline-block;
+    margin: 0 0 15px 5px;
+    line-height: 34px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 128px;
+    border-radius: 5px;
+    text-align: center;
+}
+.zujin  a{
+    display:inline-block;
+    margin: 0 0 15px 5px;
+    line-height:34px;
+    border:1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    width:138px;
+}
+.zujin em{
+    position: absolute;
+    top: 319px;
+    left: 201px;
+}
+.dire,.deco{
+    width: 128px;
+    background-color: #fff;
+    height: 100px;
+    position: absolute;
+    border:1px solid #ccc;
+    top: 280px;
+
+
+}
+.dire{
+    left: 106px;
+    display:none;
+}
+.dire,.deco  p{
+    font-size: 16px;
+    line-height:24px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.deco{
+    left: 246px;
+    display:none;
+
+}
+.pay{
+    width: 137px;
+    background-color: #fff;
+    height: 120px;
+    position: absolute;
+    border: 1px solid #ccc;
+    top: 345px;
+    left: 258px;
+    display:none;
+}
+.pay p{
+    font-size: 14px;
+    line-height:20px;
+    text-align: center;
+    cursor: pointer;
+}
+.section  ul li .hood{
+    width:356px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.section  ul li .same{
+    width:126px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color:#5b5757;
+    border-radius: 5px;
+
+}
+.section  ul li .flo{
+    width:126px;
+    text-align:center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/*.section  ul li .sel{
+    width:85px;
+    height:40px;
+
+    text-align: center;
+}*/
+/*.section  ul li .ser{
+    width:106px;
+    height:40px;
+    text-align: center;
+}*/
+.section  ul li .price{
+    width:138px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+}
+.section  ul li .ya{
+    width:138px;
+    height: 40px;
+    text-align: center;
+    color:#7a7a7a;
+}
+.section  ul li .title{
+    width:530px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.section  ul .peizhi  a{
+    display:inline-block;
+    width:110px;
+    height:35px;
+    line-height:34px;
+    text-align:center;
+    margin:20px 10px 0 0 ;
+    border-radius: 5px;
+    background:url('../img/huise.png');
+
+
+}
+.section  ul li #bed{
+    margin-left:5px;
+}
+.section  ul .peizhi  a.tu{
+    background: url('../img/xuan-zhong.png');
+
+}
+.section  ul li #xiyiji{
+    margin:0 10px 15px 107px;
+}
+.pp{
+    position: relative;
+}
+.pp  a img{
+    display:inline-block;
+    height:200px;
+    width:200px;
+}
+.section .photo{
+    display:inline-block;
+    width:165px;
+    line-height:34px;
+    font-size:16px;
+    color:#fff;
+    background-color: #75a749;
+    margin: 10px 0 10px 104px;
+    border-radius: 5px;
+    border:0;
+    text-align:center;
+}
+.section .file-ch{
+    display:inline-block;
+    width:165px;
+    height:34px;
+    background-color: #75a749;
+    border-radius: 5px;
+    border:0;
+    position: absolute;
+    left: 104px;
+    top: 12px;
+    opacity: 0;
+}
+.pp a{
+    display:block;
+    border:1px solid #ccc;
+    height: 200px;
+    margin-left: 102px;
+
+}
+
+
+
+
+
+.section  .must{
+    display:block;
+    margin-left:104px;
+}
+.section .fabu{
+    display:inline-block;
+    width:330px;
+    height:42px;
+    font-size:20px;
+    color:#fff;
+    border-radius: 5px;
+    border:0;
+    background-color: #75a749;
+    margin: 25px 10px;
+    text-align: center;
+}
+.foot{
+    min-width:1150px;
+    height:260px;
+    background-color:#242623;
+    margin-top:15px;
+}
+.foot .foot-nav{
+    width:1150px;
+    margin:0 auto;
+    position:relative;
+}
+.p1{
+    color:#ccc;
+}
+.p1 a{
+    color:#ccc;
+    display:inline-block;
+    margin:42px 16px 20px 0;
+}
+.p2 a{
+    color:#ccc;
+    display:inline-block;
+    margin:0 12px 50px 0;
+}
+.foot-xian{
+    display:block;
+    width:950px;
+    height:1px;
+    background-color:#444;
+    margin-bottom:30px;
+}
+.foot-nav ul li {
+    color: #ccc;
+}
+.foot-nav  ul .li1{
+    margin-top:14px;
+}
+.foot-nav ul li img{
+    position:absolute;
+    top:40px;
+    right:0;
+}
+.foot-nav ul li span{
+    position:absolute;
+    bottom:10px;
+    right:20px;
+}
+
+

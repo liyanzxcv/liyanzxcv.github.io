@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>筛选页1.0</title>
+    <link rel="stylesheet" href="css/筛选页1.0.css">
+</head>
+<body>
+<div class="header">
+    <div class="wrap">
+            <a href="###"><img src="img/logo.png"/></a>
+            <ul>
+                <li><span>郑州</span><i id="sanjiao2"></i></li>
+                <li><input type="text" placeholder="请输入小区名称/区域/厅室">
+                    <button><img src="img/33.png"/>搜房源</button>
+                </li>
+            </ul>
+            <div class="header-r">
+                <span>登录 |</span>
+                <span>注册</span>
+            </div>
+
+    </div>
+</div>
+<div class="body">
+     <div class="wrap">
+         <div class="body1">
+             <div class="body1-top">
+                <ul>
+                   <li class="li1">区域 :<span>全部</span>
+                         <a href="###">金水</a>
+                         <a href="###">中牟</a>
+                         <a href="###">惠济</a>
+                         <a href="###">经济开发区</a>
+                         <a href="###">周边县市</a>
+                         <a href="###">高新</a>
+                         <a href="###">郑东</a>
+                         <a href="###">二七</a>
+                         <a href="###">中原</a>
+                         <a href="###">管城</a>
+                   </li>
+                   <li class="zujin">租金 :<span>全部</span>
+                         <a href="###">500以下</a>
+                         <a href="###">500-800元</a>
+                         <a href="###">800-1000元</a>
+                         <a href="###">1000-1500元</a>
+                         <a href="###">1500-2000元</a>
+                         <a href="###">2000-3000元</a>
+                         <a href="###">3000-5000元</a>
+                         <a href="###">5000以上</a>
+                   </li>
+                   <li class="fang">房型 :<span>全部</span>
+                            <a href="###" id="1">一室</a>
+                            <a href="###" id="2">二室</a>
+                            <a href="###" id="3">三室</a>
+                            <a href="###" id="4">四室</a>
+                            <a href="###" id="5">五室及以上</a>
+                   </li>
+                   <li class="choose">筛选 :
+                       <a href="###">房屋类型</a>
+                       <a href="###">全部</a>
+                       <input type="checkbox"/> 地铁房
+                       <input type="checkbox"/> 阳台
+                   </li>
+                </ul>
+                <div id="dz1">
+                     <p  class="1室1厅">一室一厅</p>
+                     <p  class="2室1厅">两室一厅</p>
+                     <p  class="3室1厅">三室一厅</p>
+                     <p  class="2室2厅">两室两厅</p>
+                     <p  class="3室2厅">三室两厅</p>
+                </div>
+                <div id="dz2">
+                     <p  class="简装修">简装</p>
+                     <p  class="精装修">精装</p>
+                     <p  class="毛坯">毛坯</p>
+                     <p  class="豪华">豪华</p>
+                </div>
+             </div>
+             <div class="body1-bottom">
+                <ul>
+                    <li class="all"><a href="###">全部</a></li>
+                    <li><a href="###">诚信房源</a></li>
+                    <li><a href="###">个人房源</a></li>
+                    <li><a href="###">经纪人</a></li>
+                </ul>
+                 <p><span class="defalut">默认</span>
+                    <span>最新</span>
+                    <span>租金
+                    <i class="sanjiao-top"></i><i class="sanjiao-bottom"></i></span>
+                 </p>
+             </div>
+         </div>
+         <div class="body2">
+             <!--<div class="section">
+              <img  class="light" src="img/light.png">
+               <ul>
+                  <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                      <img src="img/gr.png">
+                      <img src="img/inte.png"  class="inte"></li>
+                  <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                  <li class="li2">
+                      <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                  <li class="li2"><span class="decoration">精装修</span><span class="sub">地铁口</span></li>
+              </ul>
+              <p class="price"><i>2800<s>元/月</s></i>
+                  <em>今天</em></p>
+          </div>
+          <div class="section">
+              <img src="img/light.png"  class="light">
+              <ul>
+                  <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                     <span class="person">(个人)</span>
+                  </li>
+                  <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                  <li class="li2">
+                      <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                  <li class="li2"><span class="jia">家电齐全</span><span class="ya">押一付一</span></li>
+                </ul>
+              <p class="price"><i>2800<s>元/月</s></i>
+                     <em>2016.6.20</em></p>
+          </div>
+          <div class="section">
+             <img src="img/light.png"  class="light">
+             <ul>
+                 <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                     <span class="person">(个人)</span>
+                     <img src="img/inte.png"  class="inte">
+                 </li>
+                 <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                 <li class="li2">
+                     <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                 <li class="li2"><span class="decoration">精装修</span>
+                     <span class="ya">押一付一</span>
+                     <span class="sub">地铁口</span></li>
+             </ul>
+             <p class="price"><i>2800<s>元/月</s></i>
+                 <em>2016.6.20</em></p>
+          </div>
+         <div class="section">
+             <img src="img/light.png"  class="light">
+             <ul>
+                 <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                     <img src="img/gr.png">
+                 </li>
+                 <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                 <li class="li2">
+                     <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                 <li class="li2">
+                     <span class="sub">地铁口</span>
+                     <span class="jia">家电齐全</span>
+                 </li>
+             </ul>
+             <p class="price"><i>2800<s>元/月</s></i>
+                 <em>2016.6.20</em></p>
+         </div>
+         <div class="section">
+             <img src="img/light.png"  class="light">
+             <ul>
+                 <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                     <span class="person">(个人)</span>
+                     <img src="img/inte.png">
+                 </li>
+                 <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                 <li class="li2">
+                     <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]
+                 </li>
+             </ul>
+             <p class="price"><i>2800<s>元/月</s></i>
+                 <em>2016.6.20</em></p>
+         </div>
+-->
+         </div>
+         <div class="body3">
+             <table>
+                 <thead>
+                   <tr>
+                    <!-- <th class="th2">上一页</th>
+                     <th class="th2 page-checked">1</th>
+                     <th class="th2">2</th>
+                     <th class="th2">3</th>
+                     <th class="th2">4</th>
+                     <th class="th2">5</th>
+                     <th>...</th>
+                     <th class="th2">100</th>
+                     <th class="th2">下一页</th>-->
+                   </tr>
+                 </thead>
+             </table>
+
+         </div>
+     </div>
+
+</div>
+<div class="foot">
+    <div class="foot-nav">
+        <p class="p1">友情链接:
+            <a href="###">武汉租房</a>
+            <a href="###">厨房电器品牌</a>
+            <a href="###">房展汇</a>
+            <a href="###">36搜房网</a>
+            <a href="###">无锡二手车</a>
+            <a href="###">合肥房产网</a>
+            <a href="###">房产论坛</a>
+            <a href="###">租房问答</a>
+            <a href="###">郑州租房</a>
+            <a href="###">郑州房价</a>
+            <a href="###">好租</a>
+            <a href="###">郑州租房</a>
+            <a href="###">密封胶</a>
+
+        </p>
+        <p class="p2"> <a href="###">南山写字楼</a>
+            <a href="###">罗湖写字楼</a>
+            <a href="###">上海写字楼出租</a>
+            <a href="###">广州写字楼出租</a>
+            <a href="###">北京办公室出租</a>
+            <a href="###">深圳写字楼出租</a>
+            <a href="###">房产季</a>
+            <a href="###">好租</a>
+            <a href="###">好租</a>
+            <i class="foot-xian"></i>
+        </p>
+        <ul>
+            <li>北京宜居房产经纪有限责任公司 | 网络经营许可证 京40825355号</li>
+            <li class="li1">©Copyright©2010-1016易居版权所有</li>
+            <li><img src="img/22.jpg"/><span>微信扫一扫  马上租房</span></li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="jquery-1.8.0.js"></script>
+<script type="text/javascript" src="yiju-js/shaixuanye.js"></script>
+</body>
+</html>

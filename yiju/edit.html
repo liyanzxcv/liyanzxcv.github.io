@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传头像</title>
+    <link rel="stylesheet" href="css/edit.css">
+    <link rel="icon" href="img/towel.png" type="img/x-icon">
+</head>
+<body>
+<div class="header">
+    <div class="wrap">
+        <a href="###"><img src="img/logo.png"/></a>
+        <ul>
+            <li><span>郑州</span><i id="sanjiao2"></i></li>
+            <li><input type="text" placeholder="请输入小区名称/区域/厅室">
+                <button><img src="img/33.png"/>搜房源</button>
+            </li>
+        </ul>
+        <div class="header-r">
+           <!-- <a href="http://192.168.0.190/登录.html">我的昵称 |</a>
+            <a href="http://192.168.0.190/注册.html">注册</a>-->
+        </div>
+    </div>
+</div>
+<div class="body">
+    <div class="wrap">
+       <div class="body-l">
+           <img src="img/photo.jpg">
+           <p>我的昵称</p>
+           <ul>
+               <li><a href="###">我的收藏</a></li>
+               <li><a href="###">我的发布</a></li>
+               <li><a href="###">浏览历史</a></li>
+               <li class="current"><a href="###">编辑资料</a></li>
+           </ul>
+       </div>
+
+        <!---------------------------------我的收藏-------------------------------->
+
+          <div class="body-r  collect">
+             <p>我的收藏</p>
+             <div class="whole">
+                <ul>
+                    <li class="current">全部</li>
+                    <li>价格<i class="sanjiao-top"></i>
+                        <i class="sanjiao-bottom"></i>
+                    </li>
+                    <li>面积</li>
+                </ul>
+
+             </div>
+              <div class="dv"></div>
+             <!--<div class="section">
+                <img  class="light" src="img/light.png">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <img src="img/gr.png">
+                        <img src="img/inte.png"  class="inte"></li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                    <li class="li2"><span class="decoration">精装修</span><span class="sub">地铁口</span></li>
+                </ul>
+                <p class="price"><span>删除 x</span><i>2800<s>元/月</s></i>
+                    <em>今天</em></p>
+                <p class="xian"></p>
+             </div>-->
+            <!-- <div class="section">
+                <img src="img/light.png"  class="light">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <span class="person">(个人)</span>
+                    </li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                    <li class="li2"><span class="jia">家电齐全</span><span class="ya">押一付一</span></li>
+                </ul>
+                <p class="price"><span>删除 x</span><i>2800<s>元/月</s></i>
+                    <em>2016.6.20</em></p>
+                <p class="xian"></p>
+             </div>-->
+              <!--<div class="section">
+                 <img src="img/light.png"  class="light">
+                 <ul>
+                     <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                         <span class="person">(个人)</span>
+                         <img src="img/inte.png"  class="inte">
+                     </li>
+                     <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                     <li class="li2">
+                         <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                     <li class="li2"><span class="decoration">精装修</span>
+                         <span class="ya">押一付一</span>
+                         <span class="sub">地铁口</span></li>
+                 </ul>
+                 <p class="price"><span>删除 x</span><i>2800<s>元/月</s></i>
+                     <em>2016.6.20</em></p>
+                 <p class="xian"></p>
+             </div>-->
+              <!--<div class="section">
+                  <img src="img/light.png"  class="light">
+                  <ul>
+                      <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                          <img src="img/gr.png">
+                      </li>
+                      <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                      <li class="li2">
+                          <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                      <li class="li2">
+                          <span class="sub">地铁口</span>
+                          <span class="jia">家电齐全</span>
+                      </li>
+                  </ul>
+                  <p class="price"><span>删除 x</span><i>2800<s>元/月</s></i>
+                      <em>2016.6.20</em></p>
+                  <p class="xian"></p>
+             </div>-->
+              <!-- <div class="section">
+                <img src="img/light.png"  class="light">
+                  <ul>
+                      <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                          <span class="person">(个人)</span>
+                          <img src="img/inte.png">
+                      </li>
+                      <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                      <li class="li2">
+                          <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]
+                      </li>
+                  </ul>
+                  <p class="price"><span>删除 x</span><i>2800<s>元/月</s></i>
+                      <em>2016.6.20</em></p>
+                  <p class="xian"></p>
+              </div>-->
+             <div class="biaoge">
+                <table>
+                    <tbody>
+                    <tr>
+                      <!--<th class="th2">上一页</th>
+                        <th class="th2  page-checked">1</th>
+                        <th class="th2">2</th>
+                        <th class="th2">3</th>
+                        <th class="th2">4</th>
+                        <th class="th2">5</th>
+                        <th>...</th>
+                        <th class="th2">8</th>
+                        <th class="th2">下一页</th>-->
+                    </tr>
+                    </tbody>
+                </table>
+             </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+ <!---------------------------------我的发布-------------------------------->
+          <div class="body-r  announce">
+            <p>我的发布</p>
+            <div class="whole">
+                <ul>
+                    <li class="current">全部</li>
+                    <li>价格<i class="sanjiao-top"></i>
+                        <i class="sanjiao-bottom"></i>
+                    </li>
+                    <li>面积</li>
+                </ul>
+
+            </div>
+            <div class="section">
+                <img  class="light" src="img/light.png">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <img src="img/gr.png">
+                        <img src="img/inte.png"  class="inte"></li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                    <li class="li2"><span class="decoration">精装修</span><span class="sub">地铁口</span></li>
+                </ul>
+                <p class="price"><span>编辑<img src="img/edit.png"></span>
+                    <span>删除 x</span><i>2800<s>元/月</s></i>
+                    <em>今天</em></p>
+                <p class="xian"></p>
+            </div>
+            <div class="section">
+                <img src="img/light.png"  class="light">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <span class="person">(个人)</span>
+                    </li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                    <li class="li2"><span class="jia">家电齐全</span><span class="ya">押一付一</span></li>
+                </ul>
+                <p class="price"><span>编辑<img src="img/edit.png"></span>
+                    <span>删除 x</span><i>2800<s>元/月</s></i>
+                    <em>2016.6.20</em></p>
+                <p class="xian"></p>
+            </div>
+            <div class="section">
+                <img src="img/light.png"  class="light">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <span class="person">(个人)</span>
+                        <img src="img/inte.png"  class="inte">
+                    </li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                    <li class="li2"><span class="decoration">精装修</span>
+                        <span class="ya">押一付一</span>
+                        <span class="sub">地铁口</span></li>
+                </ul>
+                <p class="price"><span>编辑<img src="img/edit.png"></span>
+                    <span>删除 x</span><i>2800<s>元/月</s></i>
+                    <em>2016.6.20</em></p>
+                <p class="xian"></p>
+            </div>
+            <div class="section">
+                <img src="img/light.png"  class="light">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <img src="img/gr.png">
+                    </li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                    <li class="li2">
+                        <span class="sub">地铁口</span>
+                        <span class="jia">家电齐全</span>
+                    </li>
+                </ul>
+                <p class="price"><span>编辑<img src="img/edit.png"></span>
+                    <span>删除 x</span><i>2800<s>元/月</s></i>
+                    <em>2016.6.20</em></p>
+                <p class="xian"></p>
+            </div>
+            <div class="section">
+                <img src="img/light.png"  class="light">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <span class="person">(个人)</span>
+                        <img src="img/inte.png">
+                    </li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]
+                    </li>
+                </ul>
+                <p class="price"><span>编辑<img src="img/edit.png"></span>
+                    <span>删除 x</span><i>2800<s>元/月</s></i>
+                    <em>2016.6.20</em></p>
+                <p class="xian"></p>
+            </div>
+            <div class="biaoge">
+                <table>
+                    <tbody>
+                    <tr>
+                        <th class="th1 cur">1</th>
+                        <th class="th1">2</th>
+                        <th class="th1">3</th>
+                        <th class="th1">4</th>
+                        <th class="th1">5</th>
+                        <th>...</th>
+                        <th class="th2">100</th>
+                        <th class="th2">下一页</th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+<!---------------------------------------浏览历史------------------------------>
+          <div class="body-r  look-history">
+            <p>浏览历史</p>
+            <div class="section">
+                <img  class="light" src="img/light.png">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <img src="img/gr.png">
+                        <img src="img/inte.png"  class="inte"></li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                    <li class="li2"><span class="decoration">精装修</span><span class="sub">地铁口</span></li>
+                </ul>
+                <p class="price"><i>2800<s>元/月</s></i>
+                    <em>今天</em></p>
+                <p class="xian"></p>
+            </div>
+            <div class="section">
+                <img src="img/light.png"  class="light">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <span class="person">(个人)</span>
+                    </li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                    <li class="li2"><span class="jia">家电齐全</span><span class="ya">押一付一</span></li>
+                </ul>
+                <p class="price"><i>2800<s>元/月</s></i>
+                    <em>2016.6.20</em></p>
+                <p class="xian"></p>
+            </div>
+            <div class="section">
+                <img src="img/light.png"  class="light">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <span class="person">(个人)</span>
+                        <img src="img/inte.png"  class="inte">
+                    </li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                    <li class="li2"><span class="decoration">精装修</span>
+                        <span class="ya">押一付一</span>
+                        <span class="sub">地铁口</span></li>
+                </ul>
+                <p class="price"><i>2800<s>元/月</s></i>
+                    <em>2016.6.20</em></p>
+                <p class="xian"></p>
+            </div>
+            <div class="section">
+                <img src="img/light.png"  class="light">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <img src="img/gr.png">
+                    </li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]</li>
+                    <li class="li2">
+                        <span class="sub">地铁口</span>
+                        <span class="jia">家电齐全</span>
+                    </li>
+                </ul>
+                <p class="price"><i>2800<s>元/月</s></i>
+                    <em>2016.6.20</em></p>
+                <p class="xian"></p>
+            </div>
+            <div class="section">
+                <img src="img/light.png"  class="light">
+                <ul>
+                    <li class="li1">曼哈顿 地铁口 家电齐全 三室两厅
+                        <span class="person">(个人)</span>
+                        <img src="img/inte.png">
+                    </li>
+                    <li class="li2">3室2厅|合租|豪华装修|15/32层</li>
+                    <li class="li2">
+                        <img src="img/地图.png"> 曼哈顿［金水-燕庄 金水路未来路交汇处]
+                    </li>
+                </ul>
+                <p class="price"><i>2800<s>元/月</s></i>
+                    <em>2016.6.20</em></p>
+                <p class="xian"></p>
+            </div>
+            <div class="biaoge">
+                <table>
+                    <tbody>
+                    <tr>
+                        <th class="th1 current">1</th>
+                        <th class="th1">2</th>
+                        <th class="th1">3</th>
+                        <th class="th1">4</th>
+                        <th class="th1">5</th>
+                        <th>...</th>
+                        <th class="th2">100</th>
+                        <th class="th2">下一页</th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+
+
+<!----------------------------------编辑资料-------------------------------->
+       <div class="no-change-edit">
+          <div class="body-r-edit">
+            <p>编辑资料</p>
+            <div class="whole-edit">
+              <ul>
+                <li class="current-1">上传头像</li>
+                <li>修改昵称</li>
+                <li>修改密码</li>
+              </ul>
+            </div>
+            <div class="shangchuan">
+             <input type="button" value="选择照片">
+             <input type="file"  class="file-ch" id="uploadPhoto" name="uploadPhoto"/>
+             <a href="###"><img src="img/person.png"/></a>
+             <input type="button" value="保存" class="choose">
+             <span>取消</span>
+           </div>
+            <div class="nicheng">
+               设置昵称：<input type="text" value="" class="put">
+               <input type="button"  class="choose" value="保存">
+               <span>取消</span>
+           </div>
+            <div class="mima">
+               <ul>
+                   <li><span> 当前密码 : </span>
+                       <input type="text" class="input-1">
+                   </li>
+                   <li><span> 新密码 : </span>
+                       <input type="text" class="input-2"></li>
+                   <li><span> 再次输入: </span>
+                       <input type="text" class="input-3"></li>
+                   <li><button class="choose">保存</button>
+                       <i>取消</i>
+                   </li>
+               </ul>
+           </div>
+          </div>
+       </div>
+
+    </div>
+</div>
+<div class="zhezhao xiugai">
+    <div class="success">
+        <p class="no">×</p>
+        <img src="img/finish-duihao.png">
+        <span>密码修改成功</span>
+        <p><input type="button" value="确定">
+            <input type="button" value="取消" class="put">
+        </p>
+    </div>
+</div>
+<div class="zhezhao  shanchu">
+    <div class="success">
+        <p class="no">×</p>
+        <img src="img/finish-duihao.png">
+        <span>确定要删除么？</span>
+        <p class="btn"><input type="button" value="确定">
+            <input type="button" value="取消" class="put">
+        </p>
+    </div>
+</div>
+<div class="foot">
+     <div class="foot-nav">
+            <p class="p1">友情链接:
+                <a href="###">武汉租房</a>
+                <a href="###">厨房电器品牌</a>
+                <a href="###">房展汇</a>
+                <a href="###">36搜房网</a>
+                <a href="###">无锡二手车</a>
+                <a href="###">合肥房产网</a>
+                <a href="###">房产论坛</a>
+                <a href="###">租房问答</a>
+                <a href="###">郑州租房</a>
+                <a href="###">郑州房价</a>
+                <a href="###">好租</a>
+                <a href="###">郑州租房</a>
+                <a href="###">密封胶</a>
+
+            </p>
+            <p class="p2"> <a href="###">南山写字楼</a>
+                <a href="###">罗湖写字楼</a>
+                <a href="###">上海写字楼出租</a>
+                <a href="###">广州写字楼出租</a>
+                <a href="###">北京办公室出租</a>
+                <a href="###">深圳写字楼出租</a>
+                <a href="###">房产季</a>
+                <a href="###">好租</a>
+                <a href="###">好租</a>
+                <i class="foot-xian"></i>
+            </p>
+            <ul>
+                <li>北京宜居房产经纪有限责任公司 | 网络经营许可证 京40825355号</li>
+                <li class="li1">©Copyright©2010-1016易居版权所有</li>
+                <li><img src="img/22.jpg"/><span>微信扫一扫  马上租房</span></li>
+            </ul>
+     </div>
+</div>
+<script type="text/javascript" src="jquery-1.8.0.js"></script>
+<script type="text/javascript" src="ajaxfileuplode.js"></script>
+<script type="text/javascript" src="yiju-js/edit.js">
+
+
+</script>
+</body>
+</html>
